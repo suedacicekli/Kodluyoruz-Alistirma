@@ -1,0 +1,88 @@
+* {
+    font-family: monsterrat;
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-photo/abstract-blur-restaurant-cafe-coffee-shop-background_1339-166870.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.284);
+
+}
+
+
+
+.cardOne {
+    margin-top: 10%;
+}
+
+.form-row {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+form select,
+form input {
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+
+form input[type=text],
+form input[type=number],
+form input::placeholder,
+select {
+    color: #9a9a9a;
+}
+
+form input[type=submit] {
+    color: #fff;
+    background: #e6ac25;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    opacity: 0.9;
+}
+
+/* carousel */
+
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+
+.container .navbar-brand {
+    color: #000;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 540;
+    letter-spacing: 5px;
+}
+
+.container .navbar-brand:focus,
+.container .navbar-brand:hover {
+    color: rgba(76, 75, 80, 0.723);
+}
+
+.container .navbar-nav .nav-link {
+    color: #000;
+}
+
+.reservationCard {
+    background-color: rgba(255, 255, 255, 0.365);
+    color: #000;
+}

@@ -12,13 +12,15 @@
 
     <title>cicekli | Restaurant</title>
     <link rel="stylesheet" href="css/restaurant.css">
+    <link rel="stylesheet" href="css/customer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
 <body>
     <!--Navbar Start-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#home"><span class="text-warning">Cicekli</span>Restaurant</a>
+            <a class="navbar-brand" href="#home"><span class="text-warning">ÇİÇEKLİ</span>Restaurant</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,10 +39,11 @@
                         <a class="nav-link" href="#about">Hakkımızda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#reservation">Rezervasyon</a>
+                        <a class="nav-link" href="reservation.html">Rezervasyon</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contacts">İletişim</a>
+                        <a class="nav-link" href="#contacts">İLETİŞİM
+                        </a>
                     </li>
 
 
@@ -50,6 +53,7 @@
         </div>
     </nav>
     <!--Navbar End-->
+
 
     <!-- Carousel Start-->
     <div class="bd-example">
@@ -61,31 +65,31 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&"
+                    <img src="https://img.freepik.com/free-photo/delicious-sweet-cake-with-strawberries-baiser-plate_181624-29179.jpg?w=1400&t=st=1659289550~exp=1659290150~hmac=f69b63571cd902a1ddbdee7ac8a4a9ccb30f159f862c9bbd2a49b54262d6b159"
                         class="d-block w-100" alt="...">
-                    <div class="imageOne carousel-caption d-none d-md-block  text-white">
+                    <div class=" carousel-caption ">
                         <h5>Lorem, ipsum dolor.</h5>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod?
                         </p>
-                        <p><a href="" class="btn btn-warning mt-3">Rezervasyon Yap</a></p>
+                        <p><a href="" class="btn btn-warning mt-3">Menüyü İncele</a></p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://images.pexels.com/photos/2878743/pexels-photo-2878743.jpeg?auto=compress&cs=tinysrgb&w"
                         class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption ">
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a href="" class="btn btn-warning mt-3">Rezervasyon Yap</a></p>
+                        <p><a href="" class="btn btn-warning mt-3">Menü</a></p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg?auto=compress&cs=tinysrgb&"
                         class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <h5>Third slide label</h5>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        <p><a href="" class="btn btn-warning mt-3">Rezervasyon Yap</a></p>
+                        <p><a href="" class="btn btn-warning mt-3">Menü</a></p>
                     </div>
                 </div>
             </div>
@@ -100,6 +104,184 @@
         </div>
     </div>
     <!-- Carousel End-->
+
+    <!--About Section Start -->
+    <section id="about" class="about-section-padding">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img mt-5">
+                        <img src="https://img.freepik.com/free-psd/framed-reserved-sign-table_53876-81714.jpg?w=1060&t=st=1659286660~exp=1659287260~hmac=cae685efae67f2e3a68d5c31d51312c8b741defa2a59b6e22ce1e5019eabfa9c"
+                            alt="img-fluid" style="width:300px; ">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5 ">
+                    <div class="about-text">
+                        <h3><i>Lorem ipsum dolor sit amet. <br>Lorem, ipsum dolor.</i></h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quam incidunt deleniti
+                            numquam dignissimos beatae vitae, quis ea alias? Rerum, suscipit? Ipsum sapiente doloremque
+                            cum pariatur fuga, impedit reiciendis at sequi veniam itaque, sint, vel dolore ad ab quod
+                            perferendis illo eius atque saepe ipsa deserunt blanditiis. Magni, veritatis illo.</p>
+                        <a href="./reservation.html" class="btn btn-warning">Rezervayon Yap</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section End-->
+
+    <!-- Menu Section Start-->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2><i>Lorem ipsum dolor sit amet.</i></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Deserunt illum repellendus qui
+                            quia
+                            voluptates repudiandae!</p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="https://img.freepik.com/free-photo/food-dessert-representative-elements_23-2149177025.jpg?w=740&t=st=1659288713~exp=1659289313~hmac=7994cf49e551ca4c3643bb230b8b1fd5ee9418f128dbea1f4a9b422f9258de1d"
+                                    alt="" class="img-fluid">
+
+                            </div>
+                            <h5 class="card-title">
+                                Dessert
+                            </h5>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quas hic
+                                animi quisquam beatae minima accusantium reprehenderit inventore velit aperiam?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="https://img.freepik.com/free-photo/iced-coffee_1339-4586.jpg?w=740&t=st=1659289229~exp=1659289829~hmac=afcb3cbcf7160ad260a418e63b48f4090fb0ebb06e86eb1b4c2ac69d45d0e66c"
+                                    alt="" class="img-fluid">
+
+                            </div>
+                            <h5 class="card-title">
+                                Coffee
+                            </h5>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quas hic
+                                animi quisquam beatae minima accusantium reprehenderit inventore velit aperiam?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-white pb-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="https://i.pinimg.com/564x/2c/13/34/2c133426e8366045fb1a3c860889b147.jpg"
+                                    alt="" class="img-fluid">
+
+                            </div>
+                            <h5 class="card-title">
+                                Bowl
+                            </h5>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quas hic
+                                animi quisquam beatae minima accusantium reprehenderit inventore velit aperiam?</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Portfolio Start-->
+
+    <!-- Portfolio End-->
+
+
+
+    <section class="home-testimonial">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center testimonial-pos">
+
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h2>Müşteri Memnuniyeti</h2>
+                </div>
+            </div>
+            <section class="home-testimonial-bottom">
+                <div class="container testimonial-inner">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission
+                                        is to balance a rigorous comprehensive college preparatory curriculum with
+                                        healthy social and emotional development.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people"
+                                            src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg"
+                                            alt=""></div>
+                                    <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                    <div class="link-position d-flex justify-content-center">Student</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission
+                                        is to balance a rigorous comprehensive college preparatory curriculum with
+                                        healthy social and emotional development.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people"
+                                            src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                            alt=""></div>
+                                    <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                    <div class="link-position d-flex justify-content-center">Student</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission
+                                        is to balance a rigorous comprehensive college preparatory curriculum with
+                                        healthy social and emotional development.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people"
+                                            src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                            alt=""></div>
+                                    <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                    <div class="link-position d-flex justify-content-center">Student</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+    </section>
+
+
+
+    <!-- Google Map Start-->
+    <div class="container">
+        <div class="row mt-3">
+
+            <div class="col-md-12 mt-5">
+
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1tY9bj54Qj10S1StJAizvVyNrflrbvrg&ehbc=2E312F"
+                    width="1100" height="340"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Google Map End-->
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
